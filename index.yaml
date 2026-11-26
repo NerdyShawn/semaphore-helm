@@ -1,7 +1,24 @@
-charts:
+apiVersion: v1
+registry: https://raw.githubusercontent.com/NerdyShawn/semaphore-helm/main/index.yaml
+entries:
   semaphore:
-  - version: 16.3.0
-    download: https://raw.githubusercontent.com/NerdyShawn/semaphore-helm/main/charts/semaphore/16.3.0.tar.gz
-    uploadedAt: "2026-11-26T00:00:00Z"
-default: semaphore/16.3.0.tar.gz
-version: 16.3.0
+  - apiVersion: v2
+    appVersion: 2.19.8
+    created: "2026-11-26T00:00:00Z"
+    description: Modern UI and powerful API for Ansible, Terraform, OpenTofu, PowerShell and other DevOps tools
+    digest: aab8a1734ce7e45e71993e83fb557300f3a907d35e38d4c6bb76bcd9e9a252f0
+    home: https://github.com/semaphoreui/semaphore
+    keywords:
+    - ansible
+    - semaphore
+    maintainers:
+    - name: NerdyShawn
+      url: https://github.com/NerdyShawn
+    name: semaphore
+    sources:
+    - https://github.com/semaphoreui/charts
+    - https://github.com/NerdyShawn/semaphore-helm
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/NerdyShawn/semaphore-helm/main/charts/semaphore/16.3.0.tar.gz
+    version: 16.3.0
