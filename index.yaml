@@ -1,5 +1,4 @@
 apiVersion: v1
-registry: https://raw.githubusercontent.com/NerdyShawn/semaphore-helm/main/index.yaml
 entries:
   semaphore:
   - apiVersion: v2
