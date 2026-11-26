@@ -1,0 +1,7 @@
+charts:
+  semaphore:
+  - version: 16.3.0
+    download: https://raw.githubusercontent.com/NerdyShawn/semaphore-helm/main/charts/semaphore/16.3.0.tar.gz
+    uploadedAt: "2026-11-26T00:00:00Z"
+default: semaphore/16.3.0.tar.gz
+version: 16.3.0
